@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f1e8;
+}
+main{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+h1 {
+  font-size: 24px;
+}
+
+ .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;   
+}
+
+.navbar__logo img {
+    height: 40px;   /* ajusta el tamaño del logo */
+}
+
+.navbar__menu {
+    display:inline-flex;
+    list-style: none;
+    margin-left: auto; /* empuja el menú a la derecha */
+    gap: 20px;
+}
+
+.navbar__menu a {
+    text-decoration:solid;
+    color:darkolivegreen;
+    
+}
+.navbar__menu a:hover{
+  color:black;
+}
+
+.imagen {
+  width: 300px;
+  height: 250px;
+  position:relative; 
+}
+
+.City-name {
+  position: absolute;
+  bottom:10px;/* posición vertical */
+  left: 50%;
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  text-orientation: upright;
+}
+
+.flip-card-front {
+  position: relative; /* referencia para el texto */
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  perspective: 1000px;
+  margin-left: 100px;
+  border: solid;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color:#e3f2fd;
+  color:#555 ;
+  transform: rotateY(180deg);
+}
+
+h2 {
+    transition: transform 0.3s ease;
+}
+
+h2:hover {
+    transform: scale(2.2);
+    color:saddlebrown;
+}
+.footer {
+  width: 100%;
+  margin-top: 80px;
+  padding: 30px 10px;
+  text-align: center;
+  background: linear-gradient(180deg, #fefefe, #e3f2fd);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  transition: 0.4s ease;
+}
+
+.footer:hover {
+  background: linear-gradient(180deg, #e3f2fd, #bbdefb);
+}
+
+.footer__text {
+  font-size: 0.9rem;
+  color: #555;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer:hover .footer__text {
+  color: #0d47a1;
+  transform: translateY(-2px);
+}
