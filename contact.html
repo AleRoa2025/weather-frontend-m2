@@ -18,15 +18,17 @@
 
       <ul class="navbar__menu" style="margin-right:50px;">
         <li><a href="index.html" target="_blank">Home</a></li>
-        <li><a href="pronostico.html" target="_blank">Pronóstico Semanal</a></li>
         <li><a href="about.html" target="_blank">Acerca de</a></li>
+        <li><a href="pronostico.html" target="_blank">Pronóstico Semanal</a></li>
         <li><a href="contact.html" target="_blank">Contacto</a></li>
+        
       </ul>
     </nav>
   </header>
 
-  <main>
+  <section>
     <h1>Formulario de Contacto</h1>
+    <p>Para sugerencias y/o consultas, no dudes en contactarnos a traves del siguiente formulario:</p>
 
     <form onsubmit="mostrarMensaje(event)">
       <div class="campo">
@@ -46,7 +48,7 @@
 
       <div class="cuadro-texto">
         <label for="consulta">Consulta:</label><br>
-        <input type="text" id="consulta" style="height:100px;">
+        <input type="text" id="consulta" name="consulta">
       </div>
 
       <br>
@@ -56,11 +58,11 @@
       </div>
     </form>
 
-    <p id="mensaje"></p>
-  </main>
-
+    
+  </section>
+  
   <footer class="footer">
-    <p class="footer__text">App de Clima · 1era versión · 2025</p>
+    <p class="footer__text"><strong>App de Clima · 1era versión · 2025 <br> Por Alejandra Roa Peña </strong> </p>
   </footer>
 
   <script>
@@ -68,9 +70,10 @@
     event.preventDefault(); // evita que la página se recargue
 
     var nombre = document.getElementById("nombre").value;
-
-    alert("Muchas gracias por contactarnos" + nombre);
+    
+    alert("Gracias por contactarnos, " + nombre + ", le contestaremos en 48 hrs");
   }
+  
      
 </script>
 </body>

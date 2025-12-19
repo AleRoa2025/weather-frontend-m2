@@ -9,10 +9,8 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet">
-      <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet">
-      <link href="fontawesome/css/brands.min.css" rel="stylesheet">
-      <link href="styles.css" rel="stylesheet">     
-     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link href="styles.css" rel="stylesheet">    
    </head>
 
    <body>
@@ -24,57 +22,123 @@
 
     <ul class="navbar__menu" style="margin-right: 50px;">
        <li><a href="index.html" target="_blank">Home</a></li>
-        <li><a href="pronostico.html" target="_blank">Pronostico Semanal</a></li>
-        <li><a href="about.html" target="_blank">Acerca de</a></li>
-        <li><a href="contact.html" target="_blank">Contacto</a></li>
-    </ul>
-</nav>
+       <li><a href="about.html" target="_blank">Acerca de</a></li>
+       <li><a href="pronostico.html" target="_blank">Pronostico Semanal</a></li>        
+       <li><a href="contact.html" target="_blank">Contacto</a></li>
+     </ul>
+   </nav>
     </header>
-    <section class="acerca-de">
-    <h1>¡Bienvenido/a!</h1> 
-    Esta es la primera versión (MVP) de una
-    App Web de Clima Internacional, pensada para entregar
-    información del clima de forma simple y clara sobre las
-    10 principales capitales del mundo donde suelen ir a estudiar
-    postgrado estudiantes chilenos.
-    También se incluyó el criterio de países que destacan por su
-    alto Índice de Felicidad, buscando siempre un enfoque positivo
-    y cercano.
-  </p>
 
-  <p>
-    La idea que inspiró especialmente pensando en
-    personas de la tercera edad, a quienes muchas veces se les hace difícil
-    navegar por distintos sitios web para saber cómo está el clima en la ciudad
-    donde vive o estudia un nieto, nieta u otro familiar.
-    Por eso, el diseño es amigable, fácil de leer y sin complicaciones.
-  </p>
-   <p>
-    El objetivo de este proyecto es poner en práctica lo aprendido
-    en el Curso Front End Trainee 2.0, impartido por
-    Talento Digital para Chile / SENCE. Por lo que a nivel técnico, la aplicación está desarrollada con
-    HTML5, CSS3 y Bootstrap 5 para dar estructura y estilo, aplicando buenas prácticas como
-    diseño responsivo, además algo de JavaScript para agregar interactividad y mejorar la
-    experiencia de uso. 
-   </p>
-   <p>
-    Esta app forma parte de una maqueta de portafolio, que irá
-    creciendo paso a paso a medida que avancemos en los próximos módulos del
-    curso, incorporando nuevas funciones y mejoras visuales.
-  </p>
-  <p>
-    Gracias por visitar esta app y ser parte de este proceso de aprendizaje.
-  </p>
+   <section class="acerca-de">
+
+    <h1> <b>Acerca de la aplicación </b></h1>
+
+
+  <article>
+
+    <p>
+      Esta aplicación corresponde a la primera versión (MVP) de una App Web de
+      Clima Internacional, cuyo propósito es presentar información climática de
+      manera simple, clara y accesible sobre diez capitales del mundo que
+      concentran un alto interés de estudiantes chilenos para realizar estudios
+      de postgrado. Como criterio complementario, se consideraron países que
+      destacan por su Índice de Felicidad, con el fin de promover una experiencia
+      positiva y cercana para el usuario.
+    </p>
+
+    <p>
+      Es importante señalar que los datos climáticos presentados en la aplicación
+      son de carácter ficticio, ya que el proyecto tiene un enfoque formativo y
+      demostrativo, orientado a la práctica de conceptos del curso de desarrollo front-end 
+      aprendidos hasta el Modulo 2 y no al consumo de información en tiempo real desde APIs externas.
+    </p>
+
+    <p>
+      La idea que inspira este proyecto surge a partir de la necesidad de ofrecer
+      una herramienta simple y de fácil navegación, orientada especialmente para
+      personas de la tercera edad, quienes en muchos casos requieren acceder de
+      forma rápida y sencilla al clima de la ciudad donde vive o estudia
+      un familiar cercano. Por este motivo, el diseño prioriza la legibilidad, la
+      claridad visual y una estructura sin complejidades innecesarias.
+    </p>
+
+  </article>
+
+  <article>
+    <h1> <b>Estructura de la aplicación </b></h1>
+
+    <ul>
+      <li>
+        <b>Home: </b> Presenta las tarjetas principales con las capitales seleccionadas.
+        Cada tarjeta muestra información resumida y permite interacción visual
+        mediante animaciones. 
+      </li>
+
+      <li>
+        <b>Acerca de: </b> Describe el objetivo del proyecto, su contexto académico, el
+        público al que está orientado y las tecnologías utilizadas.
+        
+      </li>
+
+      <li>
+        <b>Pronóstico semanal:</b> Muestra una proyección climática simulada para cada
+        ciudad, organizada de forma clara para facilitar la comprensión del
+        usuario. <br>
+        <span> En las secciones arriba mencionadas, utilizo JavaScript de manera externa para función "boton arriba".</span>
+      </li>
+
+      <li>
+        <b>Contacto; </b> Un formulario de contacto que permite enviar
+        información de manera interactiva. En esta página utilizo JavaScript de manera interna,
+        para que al presionar el boton "enviar", aparezca mensaje de agradecimiento
+        
+      </li>
+    </ul>
+  </article>
+
+  <article>
+    <h1>Objetivo académico y tecnológico</h1>
+
+    <p>
+      El objetivo principal de este proyecto es poner en práctica los
+      conocimientos adquiridos en el Curso Front End Trainee 2.0, impartido por
+      Talento Digital para Chile / SENCE.
+    </p>
+
+    <p>
+      A nivel técnico, la aplicación fue desarrollada utilizando HTML5 para la
+      estructura, CSS3 y Bootstrap 5 para el diseño visual y la adaptación
+      responsiva, y JavaScript.
+    </p>
+
+    <p>
+      Finalmente, esta aplicación forma parte de una maqueta de portafolio
+      académico, la cual será ampliada progresivamente a medida que se avanza en
+      los siguientes módulos del curso, incorporando nuevas funcionalidades y
+      mejoras visuales.
+    </p>
+
+    <p>
+      Gracias por visitar esta aplicación y acompañar este proceso de aprendizaje
+      y desarrollo continuo.
+    </p>
+
+  </article>
+
 </section>
+  <button id="btn-top" onclick="volverArriba()" aria-label="Volver arriba">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
 
 
          <!-- FOOTER -->
 
   <footer class="footer">
-   <p class="footer__text">App de Clima · 1era versión · 2025  </p>
+   <p class="footer__text"><strong>App de Clima · 1era versión · 2025 <br> Por Alejandra Roa Peña </strong>   </p>
 
   </footer>
 
+    <script src="app.js"></script>
 </body>
 </html>
 
