@@ -51,6 +51,7 @@ Formulario interactivo que utiliza JavaScript interno, mostrando un mensaje de a
 - CSS3: estilos personalizados  
 - Bootstrap 5: diseño responsivo  
 - JavaScript: interactividad y manejo de eventos  
+- Fontawesome: Iconos climaticos
 
 ---
 
