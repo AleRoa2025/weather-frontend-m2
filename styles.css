@@ -137,11 +137,39 @@ h2:hover {
 }
 
 .tabla-clima th {
-  background-color: #2196f3;
+  background-color:#5188b4;
   color: white;
 }
 
 .tabla-clima i {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+  display: block;
+}
+.icono-clima {
   font-size: 1.5rem;
   margin-bottom: 4px;
 }
+
+.fa-sun {
+  color: #fbbc05;
+  font-size: medium;
+}
+
+.fa-cloud-rain,
+.fa-cloud-showers-heavy {
+  color: #4fc3f7;
+}
+
+.fa-cloud,
+.fa-cloud-sun {
+  color: #90a4ae;
+}
+
+.fa-sun { color: #fcba06; }
+.fa-cloud {color: #80acc4; }
+.fa-cloud-sun {color:#f3d584 }
+
+.fa-cloud-rain,
+.fa-cloud-showers-heavy,
+.fa-cloud-sun-rain { color: #72bce0; }
